@@ -202,6 +202,17 @@ ul {
     width: 65px;
 }
 
+@media (max-width: 767px) {
+    .header .logo img{
+        width: 50px;
+    }
+    .header .logo  {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
 .header .mega-menu {
     position: absolute;
     width: 100%;
